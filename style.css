@@ -1,0 +1,74 @@
+/* contact page */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: turquoise;
+    display: grid;
+    place-items: center;
+}
+.container{
+    position: relative;
+    height: 450px;
+    width: 580px;
+    background: rgb(0, 0, 0);
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px #444, -1px -1px 4px #444;
+}
+form h1{
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+.inp{
+    margin: 10px 25px;
+}
+input{
+    color: white;
+    height: 40px;
+    width: 500px;
+    outline: none;
+    border: 1px solid white;
+    margin: 10px 0;
+    box-shadow: 1px 1px 1px rgb(224, 221, 221);
+    padding: 15px;
+    font-size: 20px;
+    background: #000;
+}
+textarea{
+    height: 140px;
+    width: 500px;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    background: #000;
+    margin: 10px 0;
+    box-shadow: 1px 1px 1px rgb(224, 221, 221);
+    padding: 10px 10px;
+    font-size: 20px;
+}
+.submit button{
+    height: 40px;
+    width: 100px;
+    background: #0489EE;
+    color: white;
+    font-size: 20px;
+    font-weight: 650;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    box-shadow: 0 1px 2px #777;
+
+}
+::placeholder{
+    color: white;
+}
+/* end of contact page */
