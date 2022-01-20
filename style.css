@@ -1,5 +1,4 @@
 /* contact page */
-
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +10,7 @@
 body{
     height: 100vh;
     width: 100%;
-    background: turquoise;
+    background-image: url('images/photo-1630650231815-a567e2ed26cc.jpeg');
     display: grid;
     place-items: center;
 }
