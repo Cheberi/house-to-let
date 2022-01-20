@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Kodi</title>
+</head>
+<body>
+    
+    <div class="search">
+        <form action="" class="card" style="width: 300px;" >
+            <h5>Quick Search</h5>
+            <select class="form-select form-select-md myLocation">
+                <option selected value="0">Location</option>
+                <option value="1" id="try">Lavington</option>
+                <option value="2">Kilimani</option>
+                <option value="3">Adams Arcade</option>
+                <!--<option value="4">Karen</option>
+                <option value="5">Kitisuru</option>
+                <option value="6">Nyari</option> -->
+            </select><br>
+            <select class="form-select form-select-md" id="housetype">
+                <option selected value="0">Property Type</option>
+                <option value="1" >Mansion</option>
+                <option value="2">Cabin</option>
+                <option value="3">Villa</option>
+                <option value="4">Duplex</option>
+                <option value="5">Bungalow</option>
+            </select><br>
+            <select class="form-select form-select-md" id="bedrooms">
+                <option selected value="0">Bedroom number</option>
+                <option value="1">1 Bedroom</option>
+                <option value="2">2 Bedrooms</option>
+                <option value="3">3 Bedrooms</option>
+                <!--<option value="4">4 Bedrooms</option>
+                <option value="5">5 Bedrooms</option>
+                <option value="6">6+ Bedrooms</option>-->
+            </select><br>
+            <select class="form-select form-select-md" id="price">
+                <option selected>Price Ranges</option>
+                <option value="0">below 50,000</option>
+                <option value="1">50,000-70,000</option>
+                <option value="2">70,000-100,000</option>
+                <option value="3">100,000-150,000</option>
+                <option value="4">150,000-200,000</option>
+                <option value="5">200,000-350,000</option>
+                <option value="6">350,000-500,000</option>
+            </select>
+            <button class="submit">Submit</button>
+        </form>
+    </div>
+   
+
+    <button type="button">Buy</button>
+    <button type="button">Rent</button>
+    <button type="button">Sell</button>
+
+    <div>
+        <h5 class="text" style="text-align: center; font-size: 25px; font-family: Times New Roman, serif";>Properties</h5>
+        <div class="lavington row">
+            <div class="card col-md-4" style="width:400px" id="oneL" >
+               <img class="card-img-top" src="images/apartments 3.jpg" alt="">
+               <div class="card-body">
+                   <h4 class="card-title">Lavington - oneBedroom</h4>
+                   <p class="card-text">Price Ksh.35,000</p>
+               </div>
+            </div>
+            <div class="card col-md-4" style="width:400px" id="twoL">
+                <img src="images/apartments1.jpg" alt="" >
+                <div class="card-body">
+                    <h4 class="card-title">Lavington - twoBedroom</h4>
+                    <p class="card-text">Price Ksh.60,000</p>
+                </div>
+            </div>
+            <div class="card col-md-4" style="width:400px" id="threeL">
+                <img src="images/apartments-image2.jpg" alt="" >
+                <div class="card-body">
+                    <h4 class="card-title">Lavington - threeBedroom</h4>
+                    <p class="card-text">Price Ksh.100,000</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="kilimani row">
+            <div class="card col-md-4" style="width:400px" id="oneK">
+               <img src="images/hse1 (1).jpg" alt="">
+               <div class="card-body">
+                <h4 class="card-title">Kilimani - oneBedroom</h4>
+                <p class="card-text">Price Ksh.70,000</p>
+            </div>
+            </div>
+            <div class="card col-md-4" style="width:400px" id="twoK">
+                <img src="images/kilimani 2bedroom.jpg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Kilimani - twoBedroom</h4>
+                    <p class="card-text">Price Ksh.120,000</p>
+                </div>
+            </div>
+            <div class="card col-md-4" style="width:400px" id="threeK">
+                <img src="images/internal1.jpg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Kilimani - threeBedroom</h4>
+                    <p class="card-text">Price Ksh.150,000</p>
+                </div>
+            </div>
+           
+        </div>
+        <div class="adams row">
+            <div class="card col-md-4" style="width:400px" id="oneA">
+               <img src="images/rental l.jpg" alt="">
+               <div class="card-body">
+                <h4 class="card-title">Adams Arcade - oneBedroom</h4>
+                <p class="card-text">Price Ksh.75,000</p>
+            </div>
+            </div>
+            <div class="card col-md-4" style="width:400px" id="twoA">
+                <img src="images/kitisuru-home.jpeg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Adams Arcade - twoBedroom</h4>
+                    <p class="card-text">Price Ksh.180,000</p>
+                </div>
+            </div>
+            <div class="card col-md-4" style="width:400px" id="threeA">
+                <img src="images/mansion 1.jpeg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Adams Arcade - threeBedroom</h4>
+                    <p class="card-text">Price Ksh.250,000</p>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
