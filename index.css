@@ -1,0 +1,28 @@
+/* project files */
+.transbox {
+    background-color: black;
+    opacity: 0.6;
+}
+html,body {
+ background-image: url('../house-to-let/images/mansion\ 2.jpeg');
+ background-attachment: fixed;
+ background-size: cover;
+}
+
+.property {
+    background-color: blanchedalmond;
+}
+
+button {
+    margin-right: 100px;
+    background-color: rgb(12, 12, 27);
+    color: white;
+    border-radius: 20px;
+}
+
+.card {
+    margin: 1%;
+    border-radius: 20px;
+}
+
+/* end of project files */
