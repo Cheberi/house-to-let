@@ -1,5 +1,5 @@
 body{
-  background-image: linear-gradient(hsla(0, 0%, 0%,0.3),hsla(0, 0%, 0%,0.3)) ,url('static/images/house-to-let-5.jpg');
+  background-image: linear-gradient(hsla(0, 0%, 0%,0.3),hsla(0, 0%, 0%,0.3)) ,url('images/house-to-let-5.jpg');
   background-repeat: no-repeat;
   background-size: 1600px 900px;
   background-attachment: fixed;
